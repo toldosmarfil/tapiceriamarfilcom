@@ -1393,8 +1393,8 @@ ul.list-inline {
   float: right;
 }
 .box-lateral {
-  width: 90%;
-  max-width: 500px;
+  width: 100%;
+
 
   top: 0;
   right: 0;
@@ -1654,13 +1654,13 @@ $line-height-abs: -60px;
   max-width: 200px;
 }
 .header-web {
-background-image: url(../../assets/images/restaurante.jpg); 
-background-image: -webkit-image-set(url('../../assets/images/restaurante.jpg') 1x);
+background-image: url(../../assets/images/emotionheader.jpeg); 
+background-image: -webkit-image-set(url('../../assets/images/emotionheader.jpeg') 1x);
 background-size: cover;
  background-position: center center;
  @media (min-width: $break-sm) {
-  background-image: url(../../assets/images/restaurante.jpg); 
-  background-image: -webkit-image-set(url('../../assets/images/restaurante.jpg') 1x);
+  background-image: url(../../assets/images/emotionheader.jpeg); 
+  background-image: -webkit-image-set(url('../../assets/images/emotionheader.jpeg') 1x);
   background-size: cover;
    background-position: center center;
  }
@@ -1717,12 +1717,6 @@ label{
 }
 .hidden{
   display: none;
-}
-.logoagulles{
-  margin-top: -100px;
-  width: 400px;
-  position: relative;
-  z-index: 10;
 }
 
 .bg-overlay{
