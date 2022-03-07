@@ -1,0 +1,169 @@
+/*** Fuente primaria  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;900&display=swap" rel="stylesheet"> **/
+/*** Fuente secundaria  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap" rel="stylesheet"> **/
+/** font-family: 'Source Sans Pro', sans-serif ;  **/
+//1-Copiar las fuentes en la carpeta assets/fonts
+//2-copiar font-face
+//3-Llenar fuentes  Proxima nova
+@font-face {
+  font-family: 'visby-light';
+	src: url("../assets/fonts/VisbyCF-Light.eot");
+  src: url("../assets/fonts/VisbyCF-Light.eot?#iefix") format("embedded-opentype"),
+   url("../assets/fonts/VisbyCF-Light.woff") format("woff"), url("../assets/fonts/VisbyCF-Light.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: 'visby-medium';
+	src: url("../assets/fonts/VisbyCF-Medium.eot");
+  src: url("../assets/fonts/VisbyCF-Medium.eot?#iefix") format("embedded-opentype"),
+   url("../assets/fonts/VisbyCF-Medium.woff") format("woff"), url("../assets/fonts/VisbyCF-Medium.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: 'visby-bold';
+	src: url("../assets/fonts/VisbyCF-Bold.eot");
+  src: url("../assets/fonts/VisbyCF-Bold.eot?#iefix") format("embedded-opentype"),
+   url("../assets/fonts/VisbyCF-Bold.woff") format("woff"), url("../assets/fonts/VisbyCF-Bold.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: 'pnBold';
+	src: url("../assets/fonts/pnBold.eot");
+  src: url("../assets/fonts/pnBold.eot?#iefix") format("embedded-opentype"),
+   url("../assets/fonts/pnBold.woff") format("woff"), url("../assets/fonts/pnBold.ttf") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: 'pnReg';
+	src: url("../assets/fonts/pnReg.eot");
+  src: url("../assets/fonts/pnReg.eot?#iefix") format("embedded-opentype"),
+   url("../assets/fonts/pnReg.woff") format("woff"), url("../assets/fonts/pnReg.ttf") format("truetype");
+  font-display: swap;
+}
+$font-family-primary: 'pnReg', sans-serif ;
+$font-family-light:   'visby-light', sans-serif ;
+$font-family-regular: 'pnReg', sans-serif ;
+$font-family-medium:  'Source Sans Pro', sans-serif ;
+$font-family-bold:    'pnBold', sans-serif ;
+
+
+/** font-family: 'Playfair Display', serif; **/
+$font-weight-light: 200;
+$font-weight-regular: 400;
+$font-weight-medium: 600;
+$font-weight-bold: 900;
+$font-family-secondary: 'Playfair Display', serif;
+$font-weight-secondary-light:200;
+$font-weight-secondary-regular:400;
+$font-weight-secondary-medium:700;
+$font-weight-secondary-bold:900;
+$primary:  #9b1818;
+$primary-guide:#121F2A;
+$secondary-guide:$primary;
+$error-primary:#FD675E ;
+$link:    rgb(207, 236, 240) ;
+$linkHover:#999 ;
+$black:   #111111  ;
+$font-primary:#2C2C2C;
+$bg-light:#F4F3F0;
+$bg-dark:#323333;
+.bg-dark {
+  background-color: $bg-dark !important;
+}
+$height-xs:80px;
+$height-sm:100px;
+$height-md:350px;
+$height-lg:400px;
+$height-xl:calc(100vh - 150px);
+b{
+  color:$font-primary ;
+}
+.em{
+  color:#B62323;
+}
+.hr-line{
+  border-bottom: 1px solid #B1B1B1 ;
+}
+$headers:
+/* name:mobile,768,992,1280,line-height,font */
+( h1: (32px, 32px, 32px, 56px, 1, "bold"),
+  h2: (24px, 24px, 24px, 38px, 1, "bold"),
+  h3: (18px, 18px, 18px, 24px, 1.2, "bold"),
+  h4: (16px, 16px, 16px, 16px, 1.2, "bold"),
+  h5: (18px, 18px, 18px, 18px, 1.2, "light"),
+  h6: (18px, 18px, 18px, 18px, 1.2, "bold"),
+  h7: (14px, 14px, 14px, 14px, 1.2, "bold"),
+  h8: (8px, 8px, 8px, 10px, 1.2, "bold"),
+  h9: (8px, 8px, 8px, 10px, 1.2, "bold"),
+  h10: (8px, 8px, 8px, 10px, 1.2, "bold"),
+  h11: (16px, 18px, 18px, 22px, 1.5, "bold"),
+  h12: (24px, 24px, 32px, 42px, 1.2, "bold"),
+  p1: (18px, 18px, 18px, 18px, 1.6, "regular"),
+  p2: (14px, 14px, 14px, 14px, 1.2, "regular"),
+  p3: (14px, 14px, 14px, 14px, 1.5, "bold"),
+  p4: (14px, 14px, 16px, 18px, 1.4, "bold"));
+/* TYPES FIJOS */
+$headersFixers: (
+  /*name :  fontsize, lineheight */
+  12 : (12px, 1.5),
+  14 : (14px, 1.5),
+  16 : (16px, 1.5),
+  18 : (18px, 1.5),
+  20 : (20px, 1.5),
+  24 : (24px, 1.5),
+);
+
+
+
+.m-0{
+  margin:0;
+}
+.hg .p-50 {
+  padding: 50px;
+}
+.demo{
+  td:first-child{
+    color:red;
+    font-size: 12px;
+    background-color: $primary;
+    color: white;
+text-align: center;
+  }
+  *:before{
+    display: none;
+  }
+}
+.align-left-vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline; 
+  justify-content: center;
+  text-align: left;
+}
+.box-bg{
+  position: absolute;
+  width: 400px;
+  height: 600px;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  // background-color: #eaeaea;
+  background-image: url('../assets/images/cabecera.jpg');
+  background-position: center;
+}
+.white{
+  color: white;
+}
+.gray{
+color:#999;
+}
+$headersFluids: (
+  /*name :  fontsize, lineheight */ 
+  12: (12px, 12px, 1.2),
+  6: (14px, 18px, 1.2),
+  5: (20px, 20px, 1.5),
+  4: (24px, 26px, 1.2),
+  3: (24px, 32px, 1.2),
+  2: (40px, 50px, 1.1),
+  1: (30px, 60px, 1.1),
+  0: (30px, 100px, 1)
+);
