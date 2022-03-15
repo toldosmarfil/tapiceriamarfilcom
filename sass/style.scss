@@ -184,3 +184,14 @@ a.link1 {
 padding: 0;
   }
 }
+
+.hero-title{
+  z-index: 2;
+
+  margin-bottom: 50px;
+  position: relative;
+
+  img{
+    max-width: 300px;
+  }
+}
