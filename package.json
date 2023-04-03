@@ -5,7 +5,6 @@
   "main": "src/index.njk",
   "scripts": {
     "start": "npm run clean && cross-env NODE_ENV=development parcel src/index.njk --open",
-    "prebuild": "cross-env NODE_ENV=production rimraf dist/* && npm run lint",
     "build": "cross-env NODE_ENV=production parcel build src/index.njk --no-cache",
     "clean": "rm -rf dist .cache",
 
