@@ -6,10 +6,7 @@
   "scripts": {
     "start": "npm run clean && cross-env NODE_ENV=development parcel src/index.njk --open",
     "build": "cross-env NODE_ENV=production parcel build src/index.njk --no-cache",
-    "clean": "rm -rf dist .cache",
-
-    
-    "preserve": "npm run build"
+    "clean": "rm -rf dist .cache"
  
 
   },
