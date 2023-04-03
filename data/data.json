@@ -1,0 +1,102 @@
+{
+  "proyectos": [
+    {
+      "id": "0",
+      "bgcolor": "orange",
+      "bgmode": "darkmode",
+      "prename": "Holygrail",
+      "name": "Design System",
+      "photo": "holygrail.jpg",
+      "descriptiontitle": " Finastra Design System",
+      "description": "Acelere la creación de prototipos y la implementación de aplicaciones y plantillas de muestra de código abierto para diseñadores y desarrolladores.",
+      "link": "https://design.fusionfabric.cloud/",
+      "links": {
+        "twitter": "https://twitter.com/maegarner",
+        "github": "https://github.com/maegarner",
+        "website": "https://design.fusionfabric.cloud/"
+      }
+    }
+    ,
+    {
+      "id": "1",
+      "bgcolor": "purple",
+      "bgmode": "lightmode",
+      "prename": "FINASTRA",
+      "name": "Design System",
+      "photo": "holygrail.jpg",
+      "descriptiontitle": " Finastra Design System",
+      "description": "Acelere la creación de prototipos y la implementación de aplicaciones y plantillas de muestra de código abierto para diseñadores y desarrolladores.",
+      "link": "https://design.fusionfabric.cloud/",
+      "links": {
+        "twitter": "https://twitter.com/maegarner",
+        "github": "https://github.com/maegarner",
+        "website": "https://design.fusionfabric.cloud/"
+      }
+    }
+    ,
+    {
+      "id": "2",
+      "bgcolor": "purple",
+      "bgmode": "lightmode",
+      "prename": "FINASTRA",
+      "name": "Design System",
+      "photo": "holygrail.jpg",
+      "descriptiontitle": " Finastra Design System",
+      "description": "Acelere la creación de prototipos y la implementación de aplicaciones y plantillas de muestra de código abierto para diseñadores y desarrolladores.",
+      "link": "https://design.fusionfabric.cloud/",
+      "links": {
+        "twitter": "https://twitter.com/maegarner",
+        "github": "https://github.com/maegarner",
+        "website": "https://design.fusionfabric.cloud/"
+      }
+    }
+    ,
+    {
+      "id": "3",
+      "bgcolor": "purple",
+      "bgmode": "lightmode",
+      "prename": "FINASTRA",
+      "name": "Design System",
+      "photo": "holygrail.jpg",
+      "descriptiontitle": " Finastra Design System",
+      "description": "Acelere la creación de prototipos y la implementación de aplicaciones y plantillas de muestra de código abierto para diseñadores y desarrolladores.",
+      "link": "https://design.fusionfabric.cloud/",
+      "links": {
+        "twitter": "https://twitter.com/maegarner",
+        "github": "https://github.com/maegarner",
+        "website": "https://design.fusionfabric.cloud/"
+      }
+    }
+    ,
+    {
+      "id": "4",
+      "bgcolor": "purple",
+      "bgmode": "lightmode",
+      "prename": "FINASTRA",
+      "name": "Design System",
+      "photo": "holygrail.jpg",
+      "descriptiontitle": " Finastra Design System",
+      "description": "Acelere la creación de prototipos y la implementación de aplicaciones y plantillas de muestra de código abierto para diseñadores y desarrolladores.",
+      "link": "https://design.fusionfabric.cloud/",
+      "links": {
+        "twitter": "https://twitter.com/maegarner",
+        "github": "https://github.com/maegarner",
+        "website": "https://design.fusionfabric.cloud/"
+      }
+    }
+
+  ],
+
+  "blogs":[
+    {
+      "id": "0",
+      "autor": "Holygrail site",
+      "name": "Holysite",
+      "photo": "holygrail.jpg",
+      "descriptiontitle": " Creando tu primera guia de estilo ",
+      "description": "",
+      "link": "https://holysite.com"
+
+    }
+  ]
+}

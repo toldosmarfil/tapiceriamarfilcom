@@ -1,0 +1,23 @@
+{% extends "../html/templates/baseinner.njk" %}
+{% import "../html/macros/insert.njk" as insert %}
+{% set items = proyectos %}
+
+
+{% block documentTitle %}seccion 1{% endblock %}
+
+
+{% block content %}
+
+
+<div class="container">
+    
+    
+    
+    {% call insert.title( items[1].id ,items[1].name ,items[1].photo,items[1].descriptiontitle ,items[1].description,items[1].link ) %} {%   endcall %},
+    
+</div>
+
+
+
+{% include "../html/partials/_banner.njk" %}
+{% endblock %}

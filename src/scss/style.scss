@@ -1,0 +1,56 @@
+@import 'abstract/_setup.scss';
+@import '_swiper.scss';
+
+$btn-radius: 50px;
+
+@import '../../node_modules/holygrailcss/scss/style.scss';
+
+
+.swiper {
+  height: 400px;
+}
+
+
+$header-mobile: 60px;
+$header-desktop:200px;
+
+
+.p-body{
+  padding-top: calc(#{$header-mobile} + 24px) ;
+
+  @media (min-width: $break-md) {
+    padding-top: calc(#{$header-desktop} + 24px) ;
+  
+  }
+
+}
+
+
+header {
+  position: fixed;
+  top :0;
+  width: 100%;
+  color: white;
+  z-index: 10;
+  height: $header-mobile;
+
+  @media (min-width: $break-md) {
+    padding-bottom: 0;
+    height: $header-desktop;
+  
+  }
+}
+
+.header-img{
+  background-image: url('../static/emotionheader.jpeg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.has-light{
+  a{
+    color: white;
+  }
+}

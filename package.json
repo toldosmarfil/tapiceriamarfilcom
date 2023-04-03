@@ -1,0 +1,74 @@
+{
+  "name": "parcel-static-boilerplate",
+  "version": "1.0.0",
+  "description": "Parcel Static Boilerplate",
+  "main": "src/index.njk",
+  "scripts": {
+    "start": "npm run clean && cross-env NODE_ENV=development parcel src/index.njk --open",
+    "prebuild": "cross-env NODE_ENV=production rimraf dist/* && npm run lint",
+    "build": "cross-env NODE_ENV=production parcel build src/index.njk --no-cache",
+    "clean": "rm -rf dist .cache",
+
+    
+    "preserve": "npm run build"
+ 
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/....."
+  },
+  "keywords": [
+    "parcel",
+    "boilerplate",
+    "static"
+  ],
+  "author": "mrr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/"
+  },
+  "homepage": "https://github.com/",
+  "dependencies": {
+    "@barba/core": "^2.9.7",
+    "aos": "^2.3.4",
+    "gsap": "^3.11.3",
+    "gsap-trial": "3.11.3",
+    "mathsass": "0.11.0",
+    "photoswipe": "^5.3.4",
+    "regenerator-runtime": "^0.13.11",
+    "rellax": "^1.12.1",
+    "swiper": "^8.4.5"
+  },
+  "devDependencies": {
+    "@babel/core": "7.20.5",
+    "@parcel/transformer-sass": "^2.8.2",
+    "autoprefixer": "^9.8.6",
+    "buffer": "^6.0.3",
+    "cross-env": "^7.0.2",
+    "eslint": "^7.8.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "holygrailcss": "^2.0.40",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.3.0",
+    "modern-normalize": "^1.0.0",
+    "nunjucks": "^3.2.2",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-imagemin": "^4.0.1",
+    "parcel-plugin-nunjucks": "^2.2.1",
+    "parcel-plugin-static-files-copy": "^2.5.0",
+    "path-browserify": "^1.0.1",
+    "prettier": "^2.1.1",
+    "process": "^0.11.10",
+    "rimraf": "^3.0.2",
+    "sass": "~1.56.2",
+    "sass-mq": "^5.0.1",
+    "stylelint": "^13.7.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recommended-scss": "^4.2.0",
+    "stylelint-prettier": "^1.1.2",
+    "stylelint-scss": "^3.18.0"
+  }
+}
+
