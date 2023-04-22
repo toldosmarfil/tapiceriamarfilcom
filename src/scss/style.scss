@@ -1,9 +1,17 @@
+@import 'base/_fonts.scss';
 @import 'abstract/_setup.scss';
 @import '_swiper.scss';
 
 $btn-radius: 50px;
 
 @import '../../node_modules/holygrailcss/scss/style.scss';
+
+
+img {
+  max-width: initial;
+
+}
+
 
 
 .swiper {
@@ -49,8 +57,4 @@ header {
   background-size: cover;
 }
 
-.has-light{
-  a{
-    color: white;
-  }
-}
+

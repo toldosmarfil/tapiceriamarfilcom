@@ -5,10 +5,10 @@
   "main": "src/index.njk",
   "scripts": {
     "start": "npm run clean && cross-env NODE_ENV=development parcel src/index.njk --open",
+
+    "guia": "npm run clean && cross-env NODE_ENV=development parcel src/guia.njk --open",
     "build": "cross-env NODE_ENV=production parcel build src/index.njk --no-cache",
     "clean": "rm -rf dist .cache"
- 
-
   },
   "repository": {
     "type": "git",
@@ -45,7 +45,7 @@
     "eslint": "^7.8.1",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "holygrailcss": "^2.0.40",
+    "holygrailcss": "^2.0.104",
     "husky": "^4.2.5",
     "lint-staged": "^10.3.0",
     "modern-normalize": "^1.0.0",
@@ -67,4 +67,3 @@
     "stylelint-scss": "^3.18.0"
   }
 }
-
