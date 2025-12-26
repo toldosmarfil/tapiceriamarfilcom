@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
-  <head>
-    <!-- Metas -->
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-  <title>{% block documentTitle %}{% endblock %} | Subtitulo SEO</title>
-  <meta name="description" content="Tapicería en Castelldefels - Tapicería de calidad en Castelldefels - Tu solución para renovar tus muebles. Contáctanos para más información." />
+<html class="no-js" lang="es">
+
+<head>
+  <!-- Metadatos -->
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>{% block documentTitle %}{% endblock %} | Tapicería en Castelldefels</title>
+  <meta name="description"
+    content="Tapicería en Castelldefels - Tapicería de calidad en Castelldefels - Tu solución para renovar tus muebles. Contáctanos para más información." />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <meta name="author" content="Tu nombre o el de tu empresa" />
-  <!-- Favicons, webmanifest -->
+  <!-- Favicons y webmanifest -->
   <link rel="apple-touch-icon" sizes="180x180" href="./static/apple-touch-icon.png" />
   <link rel="icon" type="image/png" sizes="32x32" href="./static/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="./static/favicon-16x16.png" />
@@ -18,62 +20,65 @@
   <meta name="msapplication-TileColor" content="#ffffff" />
   <meta name="msapplication-config" content="./static/browserconfig.xml" />
   <meta name="theme-color" content="#ffffff" />
-  <!-- Schema.org for Google -->
-  <meta itemprop="name" content="Tapicería en Castelldefels - Tapicería de calidad en Castelldefels - Tu solución para renovar tus muebles" />
-  <meta itemprop="description" content="Tapicería en Castelldefels - Tapicería de calidad en Castelldefels - Tu solución para renovar tus muebles. Contáctanos para más información." />
-  <meta name="google-site-verification" content="296-pw49NW_iryKQVBwGOyrXXdgxjUB_L_gY-jul2zM" />  <!-- Open Graph general -->
-  <meta property="og:title" content="Tapicería en Castelldefels - Tapicería de calidad en Castelldefels - Tu solución para renovar tus muebles" />
-  <meta property="og:description" content="Tapicería en Castelldefels - Tapicería de calidad en Castelldefels - Tu solución para renovar tus muebles. Contáctanos para más información." />
+  <!-- Schema.org para Google -->
+  <meta itemprop="name"
+    content="Tapicería en Castelldefels - Tapicería de calidad en Castelldefels - Tu solución para renovar tus muebles" />
+  <meta itemprop="description"
+    content="Tapicería en Castelldefels - Tapicería de calidad en Castelldefels - Tu solución para renovar tus muebles. Contáctanos para más información." />
+  <meta name="google-site-verification" content="296-pw49NW_iryKQVBwGOyrXXdgxjUB_L_gY-jul2zM" />
+  <!-- Open Graph general -->
+  <meta property="og:title"
+    content="Tapicería en Castelldefels - Tapicería de calidad en Castelldefels - Tu solución para renovar tus muebles" />
+  <meta property="og:description"
+    content="Tapicería en Castelldefels - Tapicería de calidad en Castelldefels - Tu solución para renovar tus muebles. Contáctanos para más información." />
   <meta property="og:url" content="https://www.tapiceriamarfil.com/" />
   <meta property="og:site_name" content="Tapicería en Castelldefels" />
   <meta property="og:type" content="website" />
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Tapicería en Castelldefels - Tapicería de calidad en Castelldefels - Tu solución para renovar tus muebles" />
-  <meta name="twitter:description" content="Tapicería en Castelldefels - Tapicería de calidad en Castelldefels - Tu solución para renovar tus muebles. Contáctanos para más información." />
+  <meta name="twitter:title"
+    content="Tapicería en Castelldefels - Tapicería de calidad en Castelldefels - Tu solución para renovar tus muebles" />
+  <meta name="twitter:description"
+    content="Tapicería en Castelldefels - Tapicería de calidad en Castelldefels - Tu solución para renovar tus muebles. Contáctanos para más información." />
   <meta name="twitter:site" content="@tapiceriamarfil" />
-  <meta name="twitter:image" content="./static/parcel-static-boilerplate-twitter.jpg" />
+  <meta name="twitter:image" content="./static/emotionheader.jpeg" />
   <meta name="twitter:image:alt" content="Imagen de la tapicería en Castelldefels" />
-    <!-- preconnect, preload, etc. -->
+  <!-- preconnect, preload, etc. -->
 
 
 
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700"
-      rel="stylesheet"
-    />
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet" />
 
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css" />  
-    <link rel="stylesheet" href="./scss/style.scss" />
-  </head>
+  <link rel="stylesheet" href="./scss/style.scss" />
+</head>
 
 
 
-  <body class="contain {% block bodyClass %}{% endblock %}">
-   
-    {% import 'html/templates/_globals.njk' as globals %} 
-    {% import "html/macros/insert.njk" as insert %}
-    {% include "html/partials/_header.njk" %}
+<body class="contain {% block bodyClass %}{% endblock %}">
+
+  {% import 'html/templates/_globals.njk' as globals %}
+  {% include "html/partials/_header.njk" %}
 
 
-    <main class="main">{% block content %}{% endblock %}</main>
+  <main class="main">{% block content %}{% endblock %}</main>
 
 
 
 
 
 
-    <!-- Scripts -->
+  <!-- Scripts -->
 
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
 
-        <script type="module" src="./js/index.js"></script>
+  <script type="module" src="./js/index.js"></script>
 
 
 
-  </body>
+</body>
+
 </html>

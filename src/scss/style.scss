@@ -1,6 +1,5 @@
 @import 'base/_fonts.scss';
 @import 'abstract/_setup.scss';
-@import '_swiper.scss';
 
 $btn-radius: 50px;
 
@@ -10,12 +9,6 @@ $btn-radius: 50px;
 img {
   max-width: initial;
 
-}
-
-
-
-.swiper {
-  height: 400px;
 }
 
 

@@ -5,8 +5,6 @@
   "main": "src/index.njk",
   "scripts": {
     "start": "npm run clean && cross-env NODE_ENV=development parcel src/index.njk --open",
-
-    "guia": "npm run clean && cross-env NODE_ENV=development parcel src/guia.njk --open",
     "build": "cross-env NODE_ENV=production parcel build src/index.njk --no-cache",
     "clean": "rm -rf dist .cache"
   },
@@ -26,15 +24,9 @@
   },
   "homepage": "https://github.com/",
   "dependencies": {
-    "@barba/core": "^2.9.7",
-    "aos": "^2.3.4",
     "gsap": "^3.11.3",
-    "gsap-trial": "3.11.3",
     "mathsass": "0.11.0",
-    "photoswipe": "^5.3.4",
-    "regenerator-runtime": "^0.13.11",
-    "rellax": "^1.12.1",
-    "swiper": "^8.4.5"
+    "regenerator-runtime": "^0.13.11"
   },
   "devDependencies": {
     "@babel/core": "7.20.5",
