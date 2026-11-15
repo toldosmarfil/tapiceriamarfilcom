@@ -2,6 +2,7 @@
 
 Este es un generador de sitios web estático llamado "Web holysite", utiliza herramientas como Parcel , dart sass,  Nunjuckts.
 
+
 Para desarrollar en él, primero debes clonar o descargar este repositorio. Luego, debes instalar las dependencias utilizando npm install. Finalmente, puedes ejecutar el modo de desarrollo con npm run start, esto abrirá una pestaña en el navegador con la url de desarrollo "http://localhost:1234/".
 
 
